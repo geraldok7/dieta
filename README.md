@@ -42,7 +42,7 @@ Este projeto é uma aplicação React que permite calcular e gerar planos de die
 Inicie a aplicação:
 
    ```sh
-   npm run
+   npm run dev
    ```
 
 Abra o navegador e acesse http://localhost:3000.
