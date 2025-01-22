@@ -23,22 +23,27 @@ Este projeto é uma aplicação React que permite calcular e gerar planos de die
 
    ```sh
    git clone https://github.com/geraldok7/dieta.git
+   ```
 
 2. Navegue até o diretório do projeto:
 
-```sh
+   ```sh
    cd dieta
+   ```
 
 3. Instale as dependências:
 
-```sh
-   cd npm install
+   ```sh
+   npm install
+   ```
 
-   Uso
+## Uso
+
 Inicie a aplicação:
 
-```sh
+   ```sh
    npm run
+   ```
 
 Abra o navegador e acesse http://localhost:3000.
 
@@ -46,11 +51,14 @@ Insira os dados de saúde do paciente e clique em "Gerar Plano Alimentar" para g
 
 Clique em "Baixar Plano em PDF" para baixar o plano de dieta em formato PDF.
 
-Contribuição
+## Contribuição
+
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
 
-Licença
+## Licença
+
 Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
-Contato
+## Contato
+
 Para mais informações, entre em contato com geraldok7@hotmail.com.
