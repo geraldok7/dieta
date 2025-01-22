@@ -1,0 +1,13 @@
+version: '3.9'
+
+services:
+  web:
+    build: .
+    ports:
+      - "5173:5173"  # Porta 5173 exposta para acessar a aplicação Vite
+    volumes:
+      - .:/app         # Sincroniza o código-fonte local com o contêiner
+      - /app/node_modules # Impede que a pasta node_modules seja sobrescrita, mantendo as dependências dentro do contêiner
+    environment:
+      - CHOKIDAR_USEPOLLING=true  # Pode ajudar em alguns sistemas, especialmente se o hot-reload não estiver funcionando
+    restart: unless-stopped
